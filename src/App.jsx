@@ -193,7 +193,6 @@ export default function App() {
       </section>
 
       <section className="collections-section">
-        <h2>Collections</h2>
         <div className="collection-controls">
           <input
             id="new-collection"
