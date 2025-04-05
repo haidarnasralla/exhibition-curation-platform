@@ -1,6 +1,6 @@
 # Exhibition Curator MVP
 
-A lightweight, minimalist web app for exploring and curating artworks from public museum collections. Built as part of the Techreturners consultancy program.
+A lightweight, minimalist web app for exploring and curating artworks from public museum collections. Built as part of the Techreturners consultancy programme.
 
 ## 🚀 Deployment
 
