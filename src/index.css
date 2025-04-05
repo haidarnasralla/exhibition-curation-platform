@@ -1,0 +1,187 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ul, ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  height: 40px;
+  padding: 0 1rem;
+  border: 1px solid #aaa;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background-color: #555;
+}
+
+/* Active collection */
+.collection-button.active {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+}
+
+/* Search section */
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+.search-section input[type="search"] {
+  flex: 1;
+  height: 40px;
+  padding: 0 0.75rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* Sort section */
+.sort-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.sort-section label {
+  font-weight: bold;
+}
+.sort-section select {
+  height: 40px;
+  padding: 0 0.75rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #fff;
+  font: inherit;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Status messages */
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+.loading {
+  margin: 1rem 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/* Card layout */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+.card img {
+  width: 100%;
+}
+.card-info {
+  flex: 1;
+}
+.card-info strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.card-info p {
+  margin: 0.25rem 0;
+}
+.source-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Responsive image layout */
+@media (min-width: 600px) {
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card img {
+    width: 200px;
+  }
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Collections */
+.collections-section {
+  margin: 2rem 0;
+}
+.collection-controls {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.collection-controls input {
+  flex: 1;
+  height: 40px;
+  padding: 0 0.75rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.collection-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
