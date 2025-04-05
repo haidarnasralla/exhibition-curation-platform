@@ -4,7 +4,7 @@ A lightweight, minimalist web app for exploring and curating artworks from publi
 
 ## 🚀 Deployment
 
-This project is deployed via [Netlify](https://netlify.com).
+This project is deployed via Netlify. You can view it [here](https://exhibition-curation-platform.netlify.app/).
 
 ## 🧰 Stack
 - React (Vite)
