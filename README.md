@@ -2,9 +2,9 @@
 
 A lightweight, minimalist web app for exploring and curating artworks from public museum collections. Built as part of the Techreturners consultancy programme.
 
-## 🚀 Deployment
+## 🚀 Hosting
 
-This project is deployed via Netlify. You can view it [here](https://exhibition-curation-platform.netlify.app/).
+This project is hosted on Netlify. You can view it [here](https://exhibition-curation-platform.netlify.app/).
 
 ## 🧰 Stack
 - React (Vite)
@@ -17,7 +17,7 @@ This project is deployed via Netlify. You can view it [here](https://exhibition-
 - Save artworks to multiple named collections
 - Responsive and accessible UI
 
-## ✅ How to Run
+## ✅ How to Run Locally
 ```bash
 git clone https://github.com/yourusername/exhibition-curator-mvp.git
 cd exhibition-curator-mvp
