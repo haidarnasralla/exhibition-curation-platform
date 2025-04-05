@@ -217,7 +217,6 @@ export default function App() {
       </section>
 
       <section>
-        <h2>Collection: {activeCollection}</h2>
         <ul>
           {(collections[activeCollection] || []).map(item => (
             <li key={item.id} className="card">
