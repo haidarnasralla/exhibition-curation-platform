@@ -7,9 +7,9 @@ A lightweight, minimalist web app for exploring and curating artworks from publi
 This project is hosted on Netlify. You can view it [here](https://exhibition-curation-platform.netlify.app/).
 
 ## 🧰 Stack
-- React (Vite)
+- React
+- JavaScript
 - Vanilla CSS
-- No API keys required
 
 ## 🔍 Features
 - Search and browse artworks from The Met and Cleveland Museum of Art
