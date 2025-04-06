@@ -20,7 +20,7 @@ This project is hosted on Netlify. You can view it [here](https://exhibition-cur
 ## ✅ How to Run Locally
 ```bash
 git clone https://github.com/yourusername/exhibition-curator-mvp.git
-cd exhibition-curator-mvp
+cd exhibition-curation-platform
 npm install
 npm run dev
 ```
